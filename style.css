@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+
+p {
+    margin-top: 100vw;
+}
+
+body {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    /* overflow: hidden; */
+}
+
+
+.cursor {
+    z-index: 100;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    position: absolute;
+
+}
+
+.click {
+    animation: click 1s linear backwards;
+
+}
+
+a {
+    cursor: pointer;
+}
+
+.clicks {
+    background-color: blue;
+}
+
+@keyframes click {
+    0% {
+        scale: 1;
+        opacity: 1;
+
+    }
+
+    100% {
+        scale: 3;
+        opacity: 0;
+        border: 3px solid red;
+        background-color: yellow;
+
+    }
+}
