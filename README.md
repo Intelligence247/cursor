@@ -9,7 +9,7 @@
 - Css
 - JavaScript
 ## Preview here
-[Go Live]()
+[Go Live](https://luminous-chimera-50e88f.netlify.app)
 
 ![screenshot](./media/sketch.png)
 
